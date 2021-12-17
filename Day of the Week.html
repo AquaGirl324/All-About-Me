@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo"></h1>
+    <script>
+const day= new Date().getDay();
+
+let message;
+
+switch(day){
+case 0:
+    message="Sunday";
+    break;
+
+    case 1:
+    message="Monday";
+    break;
+
+    case 2:
+    message="Tuesday";
+    break;
+
+    case 3:
+    message="Wednesday";
+    break;
+
+    case 4:
+    message="Thursday";
+    break;
+
+    case 5:
+    message="Friday";
+    break;
+
+    case 6:
+    message="Saturday";
+    break;
+}
+document.getElementById("demo").innerHTML=message;
+
+
+
+    </script>
+</body>
+</html>

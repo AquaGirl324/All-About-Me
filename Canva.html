@@ -1,0 +1,27 @@
+<html>
+    <body>
+<canvas id="mycanvas" width="800" height="800" style="border:1px solid rgb(2, 180, 180);"></canvas>
+<br>
+<canvas id="mycanvas2" width="800" height="800" style="border:1px solid rgb(2, 180, 180);"></canvas>
+<!--<script>
+    var c=document.getElementById("mycanvas")
+    var ctx=c.getContext("2d")
+    ctx.moveTo(0,0)
+ctx.lineTo(800,800)
+ctx.stroke();
+
+ctx.moveTo(800,0)
+ctx.lineTo(0,800)
+ctx.stroke();
+
+</script>  -->
+
+<script>
+    var c1=document.getElementById("mycanvas2")
+    var ctx2=c1.getContext("2d")
+    ctx2.beginPath();
+    ctx2.arc(95,50,40,0,2*Math.PI);
+ctx2.stroke();
+</script>
+</body>
+</html>

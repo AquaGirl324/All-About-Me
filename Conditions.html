@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+        <title>Conditions</title>
+</head>
+<body>
+   
+    <p id="demo"></p>
+  <script>
+const time= new Date().getHours();
+
+let greeting;
+if (time<8){
+greeting="Good Morning!";
+}
+
+else if(time<13){
+greeting="Good Afternoon!";
+
+}
+
+else  {
+greeting="Gooding Evening!";
+}
+
+document.getElementById("demo").innerHTML=greeting;
+
+  </script>
+</body>
+</html>

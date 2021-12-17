@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Weather Forcast</title>
+<script>
+function myFunction(){
+    var result1=document.getElementById("Celsius").value
+    var result1=document.getElementById("Fahrenheit").value
+    document.getElementById("answer").innerHTML=(result1*1.8)+32
+    document.getElementById("answer").innerHTML=(result2*-32)+0.5}
+</script>
+
+</head>
+
+<body>
+  <form style="text-align: center;" onsubmit="return myFunction()">
+      <label for="Celsius" >Celsius Value</label>
+      <br>
+      <input name= "Celsius" id="Celsius" type="number" size="20">
+      <p id="answer"></p>
+      <br>
+      
+      <label for="Fahrenheit" >Fahrenheit Value</label>
+      <br>
+      <input name= "Fahrenheit" id="Fahrenheit" type="number" size="20">
+      <p id="answer2"></p>
+      <input type="submit" value="Sumbit">
+      <br>
+  </form>  
+</body>
+</html>
